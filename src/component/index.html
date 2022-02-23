@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="style.css ">
+
+</head>
+
+<body>
+    <h1>Student Enrollment Form</h1>
+    <form action="myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="formdesign" id="name">
+            Name: <input type="text" name="fname" required><b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="Email">
+            Email: <input type="text" name="femail" required><b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="Website">
+            Website: <input type="text" name="fwebsite" required><b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="imagelink">
+            Image Link: <input type="text" name="fimagelink" required><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="Gender" id="gender">
+
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <select name="Gender"></select>
+                    <input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female
+                    <input type="radio" name="gender" value="Female">Other
+                </td>
+            </tr><br />
+            <tr>
+                <br />
+                <td><label>Course:</label></td>
+                <td>
+                    <select name="Course">
+                        <option value="HTML">HTML</option>>
+                        <option value="CSS">CSS</option>>
+                        <option value="JavaScript">JavaScript</option>
+                    </select>
+                </td>
+
+            </tr>
+        </div>
+        <div>
+
+            <tr>
+                <td>
+                    <input class="but" type="submit" value="Enroll Student" onclick="CreateStudent">
+                    <input class="but" type="reset" value="Clear">
+                </td>
+            </tr>
+        </div>
+
+    </form>
+</body>
+
+<script src="index.js"></script>
+
+</html>

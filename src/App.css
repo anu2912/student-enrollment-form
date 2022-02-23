@@ -1,0 +1,73 @@
+body {
+  display:flex;
+  height: 100vh;
+  justify-content: center;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  padding: 10px;
+}
+form {
+  padding: 1rem;
+  border: 1px solid rgb(245, 239, 239);
+  width: 350px;
+  height: 220;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 6px rgb(207, 178, 178);
+}
+form div {
+  display: grid;
+  grid-template-columns: 25% 70%;
+  height:30px;
+  border-radius: 3rem;
+  margin-bottom: 0.5rem;
+}
+.Gender{
+  border-radius: 0.5rem;
+  height:30px;
+}
+.Course{
+  border-radius: 0.5rem;
+  height:30px;
+}
+button {
+  margin-right: 1rem;
+  margin-left: 1.5rem;
+  padding: 0.2rem 0.5rem;
+  width :135px;
+  border-radius: 1rem;
+  gap: 400rem;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  box-shadow: 2px 2px 6px rgb(216, 176, 216);
+  border:rgb(221, 102, 201);
+  height: 35px;
+}
+button input:hover{
+  background-color: pink;
+  background: white;
+}
+.Container {
+  padding: 1rem;
+  border: 1px solid rgb(247, 245, 245);
+  width: 350px;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 6px rgb(207, 183, 183);
+  gap: 1rem;
+}
+.Container .details {
+  text-align: left;
+}
+.userImg {
+  width: 160px;
+  height:200px;
+  border-radius: 1rem;
+  border:1px solid white;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
