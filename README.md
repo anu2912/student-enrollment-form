@@ -1,3 +1,13 @@
+Deployed App : https://student-enrollment-form-anu2912.vercel.app/
+
+
+Preview : 
+
+![student-enrollment-form1](https://user-images.githubusercontent.com/68178931/155447635-424183e3-9fbb-45d6-ba19-870746ad3317.png)
+
+![student-enrollment-form2](https://user-images.githubusercontent.com/68178931/155447670-bb0ce8df-ae3f-45eb-bc90-daf78f938f49.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
